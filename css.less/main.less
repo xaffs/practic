@@ -7,7 +7,8 @@
 }
 
 
-.head__container {
+.head {
+  &__container {
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -15,23 +16,25 @@
     padding-bottom: 20px;
 }
 
-.head__nav {
+.&__nav {
     padding-top:10px;
     margin-left:50px;
     text-align: left; 
 }
 
-.head__nav li {
+.&__nav li {
     display: inline-block;
     margin-left:40px;
-}
+ }
 
 
-.head__logo {
+.&__logo {
     text-align: left;
+ }
 }
 
-.container__search {
+.container {
+   &__search {
     padding-top: 10px;
     display: flex;  
     float: right; 
@@ -39,7 +42,7 @@
     
 }
 
-.container__like {
+&__like {
     padding-top: 10px;
     display: flex;
     float:right;
@@ -48,41 +51,47 @@
 }
 
 
-.container__order {
+&__order {
     padding-top: 10px;
     padding-left: 20px;
+ }
 }
 
 
-.head__banner {
+.head {
+    &__banner {
     display: flex;
     justify-content: center;
 }
-.head__content {
+&__content {
     flex-direction: column;
     padding-top:100px;
     padding-right: 620px; 
 
-}
+ }
+}    
 
 
-.content__descr {
+.content {
+    &__descr {
    margin-top:10px;
    max-width: 270px;
    padding-bottom: 100px;
 }
 
 
-.content__bh {
+&__bh {
     margin-top:20px;
 }
 
 
-.content__pelem {
+&__pelem {
     display: flex;
+ }
 }
 
-.staff__fill{
+.staff {
+   &__fill {
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -90,45 +99,53 @@
     padding-bottom: 30px;
 }
 
-.staff__filter {
+&__filter {
     padding-right:400px;
 }
 
-.staff__filter2 {
+&__filter2 {
     text-align: right;
 }
 
-.staff__span2 {
+&__span2 {
     margin-left:15px;
-}
+ }
+}   
 
-.staff__img {
+&__img {
     justify-content: center;
     margin:0 auto;
+ }
 }
-.img__fline {
+.img  {
+   &__fline {
     display: flex;
     justify-content: center;
     padding-top: 20px;
  
+ }
 }
 
-.fline__imgbx {
+.fline {
+   &__imgbx {
      display: flex;
      flex-direction: column;
-}
+ }
 
-.fline__box {
+
+&__box {
     display: flex;
     flex-direction: column;
     padding-left:53px;
 }
 
-.fline__box i {
+&__box i {
     margin-bottom: 10px;
-}
+ }
+}    
+    
 
-.box__price {
+.box {
     margin-top: 5px;
     margin-bottom: 50px;
 }
